@@ -66,7 +66,6 @@
 
 - (void)pushToBrownVC:(UIButton *)sender {
     BrownViewController *vc = [BrownViewController new];
-    vc.webView = self.webView;
     [self.navigationController pushViewController:vc animated:YES];
 }
 

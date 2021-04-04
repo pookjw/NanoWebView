@@ -8,5 +8,4 @@
 #import "PrivateUIKitCore.h"
 
 @interface BrownViewController : UIViewController
-@property (weak) UIWebView *webView;
 @end
