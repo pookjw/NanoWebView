@@ -34,7 +34,7 @@
         [webView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor]
     ]];
     
-    NSURL *url = [NSURL URLWithString:@"https://www.naver.com"];
+    NSURL *url = [NSURL URLWithString:@"https://www.google.com"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [webView loadRequest:request];
     
